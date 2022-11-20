@@ -1,6 +1,7 @@
 # pip install -qr requirements.txt
 
 # base ----------------------------------------
+streamlit==1.4.0
 Cython
 matplotlib>=3.2.2
 numpy>=1.18.5
