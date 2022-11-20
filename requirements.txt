@@ -1,6 +1,7 @@
 # pip install -qr requirements.txt
 
 # base ----------------------------------------
+pydub
 easydict
 tensorflow
 streamlit==1.4.0
