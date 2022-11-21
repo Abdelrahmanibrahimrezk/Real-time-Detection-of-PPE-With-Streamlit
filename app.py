@@ -7,7 +7,7 @@
 import streamlit as st
 
 
-from input import image_input,video_input
+from input import image_input
 from webcam import app_object_detection
 
 
