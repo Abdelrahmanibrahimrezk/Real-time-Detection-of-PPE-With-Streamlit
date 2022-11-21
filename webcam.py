@@ -52,7 +52,7 @@ def app_object_detection():
 
             # determine the output layer
             ln = net.getLayerNames()
-            ln = [ln[i[0] - 1] for i in net.getUnconnectedOutLayers()]
+            ln = [ln[i - 1] for i in net.getUnconnectedOutLayers()]
 
             # construct a blob from the image
             blob = cv.dnn.blobFromImage(img, 1/255.0, (416, 416), swapRB=True, crop=False)
