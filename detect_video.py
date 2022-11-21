@@ -80,8 +80,8 @@ def detect_video(vid):
         result = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
         
         
-        #out.write(result)
-        return result
+        out.write(result)
+        
         if cv2.waitKey(1) & 0xFF == ord('q'): break
     cv2.destroyAllWindows()
 #     return "./detections/results1.mp4"
