@@ -31,12 +31,12 @@ st.image("./data/cover.jpg",width=1500)
 
 
 st.sidebar.title('Options')
-method = st.sidebar.radio('Go To ->', options=['Webcam', 'Image',"Video"])
+method = st.sidebar.radio('Go To ->', options=['Webcam', 'Image'])
 
 if method == 'Image':
     image_input()
-elif method == "Video":
-    video_input()
+# elif method == "Video":
+#     video_input()
 
 else:
     app_object_detection()
